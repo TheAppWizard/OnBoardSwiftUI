@@ -25,3 +25,6 @@ GeometryReader { geometry in
                 }
             }.frame(height: 890, alignment: .center)
 ```
+
+### Output
+![Image of Output](https://github.com/TheAppWizard/OnBoardSwiftUI/blob/main/output.png)
