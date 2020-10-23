@@ -44,7 +44,7 @@ struct ContentView: View {
             VStack{
                 
                 Spacer()
-                    .frame(width: 200, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .frame(width: 200, height: 150, alignment: .center)
 
                 
                 VStack{
@@ -54,7 +54,7 @@ struct ContentView: View {
                     
                 }
                 Spacer()
-                    .frame(width: 200, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .frame(width: 200, height: 150, alignment: .center)
                 
                 Text(para)
                     .font(.title2)
@@ -65,7 +65,7 @@ struct ContentView: View {
                     .opacity(0.8)
                 
                 Spacer()
-                    .frame(width: 200, height: 80, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .frame(width: 200, height: 80, alignment: .center)
           
                 HStack{
                     
@@ -81,7 +81,7 @@ struct ContentView: View {
                         Image(systemName: "play.fill")
                             
                         Spacer()
-                            .frame(width: 20, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: .center)
+                            .frame(width: 20, height: 100, alignment: .center)
                          Text("ENTER")
                             .font(.title)
                             .fontWeight(.light)
